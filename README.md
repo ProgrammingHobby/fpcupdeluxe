@@ -1,3 +1,5 @@
+This fork of fpcupdeluxe is an attempt to allow fpcupdeluxe to be used without the hard-coded repositories. For this purpose, the existing Lazarus and Fpc Gitlab versions (tags) are to be searched for online at program start and then used. As a result, only the Lazarus / Fpc versions that are maintained in Gitlab can be installed.
+
 fpcup / fpclazup / fpcupdeluxe<br/>
 <br/>
 Original: https://bitbucket.org/reiniero/fpcup<br/>
