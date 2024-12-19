@@ -4,17 +4,16 @@
     <PathDelim Value="\"/>
     <Version Value="12"/>
     <ManyBuildModesSelection Value="win32,win64,linuxi386,linuxi386QT5,linuxi386QT5zip,linux64,linuxaarch64,linuxaarch64QT5,linuxaarch64QT5zip,linuxarm,linuxarmQT5,linuxarmQT5zip,linuxarmv6,linuxx64QT5,linuxx64QT5zip,linuxppc64,freebsdi386,freebsdx64,solarisx64,dragonflyx64,netbsdx64,netbsdi386,freebsdx64QT5,freebsdx64QT5zip"/>
-    <BuildModes Active="win32"/>
+    <BuildModes Active="Debug"/>
     <Units Count="634">
       <Unit0>
         <Filename Value="up.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="fpcupdeluxe"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="189"/>
         <CursorPos Y="215"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
@@ -34,11 +33,9 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="22" Y="22"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="sources\updeluxe\syneditpopup.pas"/>
@@ -77,7 +74,7 @@
       <Unit7>
         <Filename Value="sources\fpcup.ini"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="8"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Ini"/>
@@ -119,11 +116,13 @@
       </Unit11>
       <Unit12>
         <Filename Value="sources\installercore.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerCore"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="172"/>
         <CursorPos X="25" Y="186"/>
         <UsageCount Value="67"/>
+        <Loaded Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="sources\fpcuputil.pas"/>
@@ -142,11 +141,13 @@
       </Unit14>
       <Unit15>
         <Filename Value="sources\installermanager.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerManager"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="25"/>
         <CursorPos X="11" Y="43"/>
         <UsageCount Value="55"/>
+        <Loaded Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="sources\NumCPULib.pas"/>
@@ -157,11 +158,13 @@
       </Unit16>
       <Unit17>
         <Filename Value="sources\installerfpc.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerFpc"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="4369"/>
         <CursorPos X="43" Y="4392"/>
         <UsageCount Value="75"/>
+        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="sources\crossinstallers\m_any_to_freebsd386.pas"/>
@@ -194,6 +197,7 @@
       </Unit21>
       <Unit22>
         <Filename Value="sources\m_crossinstaller.pas"/>
+        <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="24" Y="6"/>
         <UsageCount Value="70"/>
@@ -245,19 +249,24 @@
       </Unit28>
       <Unit29>
         <Filename Value="sources\installerlazarus.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerLazarus"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="2506"/>
         <CursorPos X="35" Y="2522"/>
         <UsageCount Value="23"/>
+        <Loaded Value="True"/>
       </Unit29>
       <Unit30>
         <Filename Value="sources\installeruniversal.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerUniversal"/>
-        <EditorIndex Value="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
         <TopLine Value="665"/>
         <CursorPos X="6" Y="678"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit30>
       <Unit31>
         <Filename Value="..\..\trunk\lazarus\components\opengl\qlclopenglwidget.pas"/>
@@ -780,11 +789,13 @@
       </Unit103>
       <Unit104>
         <Filename Value="sources\installerhelp.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerHelp"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="412"/>
         <CursorPos Y="421"/>
-        <UsageCount Value="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit104>
       <Unit105>
         <Filename Value="sources\zipper.pp"/>
@@ -3442,11 +3453,10 @@
       </Unit456>
       <Unit457>
         <Filename Value="sources\crossinstallers\m_any_to_openbsd_base.pas"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="80"/>
-        <CursorPos X="5" Y="94"/>
+        <CursorPos Y="94"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit457>
       <Unit458>
         <Filename Value="sources\crossinstallers\m_win32_to_linuxmips.pas"/>
@@ -3614,11 +3624,13 @@
       </Unit480>
       <Unit481>
         <Filename Value="sources\installerbase.pas"/>
+        <IsPartOfProject Value="True"/>
         <UnitName Value="installerBase"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="497"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="75"/>
         <CursorPos X="3" Y="75"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit481>
       <Unit482>
         <Filename Value="sources\crossinstallers\m_any_to_androidarm.pas"/>
@@ -3725,11 +3737,10 @@
       </Unit496>
       <Unit497>
         <Filename Value="sources\crossinstallers\m_any_to_netbsd_base.pas"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="65"/>
         <CursorPos X="33" Y="78"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit497>
       <Unit498>
         <Filename Value="sources\crossinstallers\m_any_to_netbsd386.pas"/>
@@ -3754,11 +3765,10 @@
       </Unit500>
       <Unit501>
         <Filename Value="sources\crossinstallers\m_any_to_openbsdx64.pas"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="62"/>
         <CursorPos X="18" Y="43"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit501>
       <Unit502>
         <Filename Value="sources\crossinstallers\m_crosswinx64.pas"/>
@@ -4685,156 +4695,68 @@
       <Unit627>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk3\gtk3bindings\lazpango1.pas"/>
         <UnitName Value="LazPango1"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1532"/>
         <CursorPos X="139" Y="1546"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit627>
       <Unit628>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\components\cairocanvas\cairocanvas.pas"/>
         <UnitName Value="CairoCanvas"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1232"/>
         <CursorPos X="3" Y="1246"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit628>
       <Unit629>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk\gtkfontcache.pas"/>
         <UnitName Value="GtkFontCache"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="132"/>
         <CursorPos X="19" Y="146"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit629>
       <Unit630>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk\gtkproc.inc"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="7861"/>
         <CursorPos X="5" Y="7875"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit630>
       <Unit631>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk2\gtk2fontcache.pas"/>
         <UnitName Value="Gtk2FontCache"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="117"/>
         <CursorPos X="19" Y="131"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit631>
       <Unit632>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk2\gtk2trayicon.inc"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="420"/>
         <CursorPos X="19" Y="434"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit632>
       <Unit633>
         <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk3\gtk3bindings\lazgobject2.pas"/>
         <UnitName Value="LazGObject2"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="17" Y="2"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit633>
     </Units>
     <Debugger>
       <Backend Value="{A76EFAFB-3A42-421F-9672-C141897C94AA}"/>
     </Debugger>
-    <JumpHistory Count="22" HistoryIndex="21">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
         <Filename Value="sources\fpcup.ini"/>
       </Position1>
       <Position2>
-        <Filename Value="up.lpr"/>
-        <Caret Line="214" TopLine="187"/>
-      </Position2>
-      <Position3>
-        <Filename Value="up.lpr"/>
-        <Caret Line="194" Column="25" TopLine="187"/>
-      </Position3>
-      <Position4>
-        <Filename Value="up.lpr"/>
-        <Caret Line="39" Column="11" TopLine="30"/>
-      </Position4>
-      <Position5>
-        <Filename Value="up.lpr"/>
-        <Caret Line="216" TopLine="189"/>
-      </Position5>
-      <Position6>
-        <Filename Value="up.lpr"/>
-        <Caret Line="39" Column="18" TopLine="24"/>
-      </Position6>
-      <Position7>
-        <Filename Value="up.lpr"/>
-        <Caret Line="216" TopLine="189"/>
-      </Position7>
-      <Position8>
-        <Filename Value="sources\crossinstallers\m_any_to_netbsd_base.pas"/>
-        <Caret Line="78" Column="38" TopLine="65"/>
-      </Position8>
-      <Position9>
         <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
         <Caret Line="4208" Column="80" TopLine="4194"/>
-      </Position9>
-      <Position10>
-        <Filename Value="sources\crossinstallers\m_any_to_openbsd_base.pas"/>
-        <Caret Line="92" Column="30" TopLine="72"/>
-      </Position10>
-      <Position11>
-        <Filename Value="sources\crossinstallers\m_any_to_openbsd_base.pas"/>
-        <Caret Line="94" Column="5" TopLine="80"/>
-      </Position11>
-      <Position12>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk3\gtk3bindings\lazpango1.pas"/>
-        <Caret Line="1546" Column="139" TopLine="1532"/>
-      </Position12>
-      <Position13>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\components\cairocanvas\cairocanvas.pas"/>
-        <Caret Line="1059" Column="3" TopLine="1046"/>
-      </Position13>
-      <Position14>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\components\cairocanvas\cairocanvas.pas"/>
-        <Caret Line="1218" Column="26" TopLine="1156"/>
-      </Position14>
-      <Position15>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\components\cairocanvas\cairocanvas.pas"/>
-        <Caret Line="1246" Column="3" TopLine="1232"/>
-      </Position15>
-      <Position16>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk\gtkfontcache.pas"/>
-        <Caret Line="146" Column="3" TopLine="132"/>
-      </Position16>
-      <Position17>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk\gtkproc.inc"/>
-        <Caret Line="7875" Column="5" TopLine="7861"/>
-      </Position17>
-      <Position18>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk2\gtk2fontcache.pas"/>
-        <Caret Line="131" Column="3" TopLine="117"/>
-      </Position18>
-      <Position19>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk\gtkfontcache.pas"/>
-        <Caret Line="146" Column="19" TopLine="132"/>
-      </Position19>
-      <Position20>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk2\gtk2fontcache.pas"/>
-        <Caret Line="131" Column="19" TopLine="117"/>
-      </Position20>
-      <Position21>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk2\gtk2trayicon.inc"/>
-        <Caret Line="434" Column="19" TopLine="420"/>
-      </Position21>
-      <Position22>
-        <Filename Value="C:\fpcupsystems\trunklatest\lazarus\lcl\interfaces\gtk3\gtk3bindings\lazgobject2.pas"/>
-        <Caret Line="1565" Column="22" TopLine="1551"/>
-      </Position22>
+      </Position2>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
