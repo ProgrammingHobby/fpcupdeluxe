@@ -12,7 +12,7 @@ object Form1: TForm1
   OnClose = FormClose
   OnCreate = FormCreate
   OnDestroy = FormDestroy
-  LCLVersion = '3.2.0.0'
+  LCLVersion = '3.6.0.0'
   Visible = True
   object btnSetupPlus: TButton
     AnchorSideLeft.Control = PageControl1
@@ -973,8 +973,8 @@ object Form1: TForm1
     object BasicSheet: TTabSheet
       AnchorSideRight.Side = asrBottom
       Caption = 'Basic'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       ParentFont = False
       object FPCVersionLabel: TLabel
         AnchorSideLeft.Control = ListBoxFPCTarget
@@ -1190,8 +1190,8 @@ object Form1: TForm1
     end
     object CrossSheet: TTabSheet
       Caption = 'Cross'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       ParentFont = False
       object radgrpCPU: TRadioGroup
         AnchorSideLeft.Control = CrossSheet
@@ -1215,7 +1215,7 @@ object Form1: TForm1
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
         ClientHeight = 296
-        ClientWidth = 124
+        ClientWidth = 126
         Constraints.MaxWidth = 150
         Items.Strings = (
           'i386'
@@ -1269,7 +1269,7 @@ object Form1: TForm1
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
         ClientHeight = 404
-        ClientWidth = 136
+        ClientWidth = 138
         Constraints.MaxWidth = 150
         Items.Strings = (
           'windows'
@@ -1400,8 +1400,8 @@ object Form1: TForm1
     end
     object ModuleSheet: TTabSheet
       Caption = 'Modules'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       ParentFont = False
       object listModules: TListBox
         AnchorSideLeft.Control = ModuleSheet
@@ -1534,8 +1534,8 @@ object Form1: TForm1
     end
     object TagSheet: TTabSheet
       Caption = 'Tags'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       ParentFont = False
       object FPCTagLabel: TLabel
         AnchorSideLeft.Control = ListBoxFPCTargetTag
@@ -1695,8 +1695,8 @@ object Form1: TForm1
     end
     object HistorySheet: TTabSheet
       Caption = 'History'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       object FPCHistoryLabel: TLabel
         AnchorSideLeft.Control = HistorySheet
         AnchorSideTop.Control = HistorySheet
@@ -1893,8 +1893,8 @@ object Form1: TForm1
     end
     object ExtraSheet: TTabSheet
       Caption = 'Extras'
-      ClientHeight = 430
-      ClientWidth = 302
+      ClientHeight = 424
+      ClientWidth = 300
       ParentFont = False
       object btnGetOpenSSL: TButton
         AnchorSideLeft.Control = ExtraSheet
@@ -1976,7 +1976,6 @@ object Form1: TForm1
         ParentFont = False
         TabOrder = 4
         Visible = False
-        OnClick = btnUpdateLazarusMakefilesClick
       end
       object btnCreateLazarusConfig: TButton
         AnchorSideLeft.Control = ExtraSheet

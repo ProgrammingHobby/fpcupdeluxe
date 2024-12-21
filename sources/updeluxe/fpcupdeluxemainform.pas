@@ -174,7 +174,6 @@ type
     procedure BitBtnSetRevisionClick(Sender: TObject);
     procedure btnBuildHelpClick(Sender: TObject);
     procedure btnCheckToolsLocationsClick({%H-}Sender: TObject);
-    procedure btnUpdateLazarusMakefilesClick({%H-}Sender: TObject);
     procedure btnBuildNativeCompilerClick(Sender: TObject);
     procedure ButtonSubarchSelectClick({%H-}Sender: TObject);
     procedure chkGitlabChange(Sender: TObject);
@@ -2024,10 +2023,6 @@ procedure TForm1.TagSelectionChange(Sender: TObject;User: boolean);
 begin
   MemoAddTag.Lines.Clear;
   MemoAddTag.Lines.Add(TListBox(Sender).GetSelectedText);
-end;
-
-procedure TForm1.btnUpdateLazarusMakefilesClick(Sender: TObject);
-begin
 end;
 
 procedure TForm1.btnBuildNativeCompilerClick(Sender: TObject);
@@ -5186,7 +5181,7 @@ begin
     begin
       if chkGitlab.Checked then
       begin
-        aList.CommaText:=installerUniversal.GetAlias(FPCTAGLOOKUPMAGIC,'list')+','+installerUniversal.GetAlias(FPCBRANCHLOOKUPMAGIC,'list');
+        aList.CommaText:=installerUniversal.GetAlias(FPCTAGLOOKUPMAGIC,'list');
       end
       else
         aList.CommaText:=installerUniversal.GetAlias(FPCURLLOOKUPMAGIC,'list');
@@ -5203,7 +5198,7 @@ begin
     begin
       if chkGitlab.Checked then
       begin
-        aList.CommaText:=installerUniversal.GetAlias(LAZARUSTAGLOOKUPMAGIC,'list')+','+installerUniversal.GetAlias(LAZARUSBRANCHLOOKUPMAGIC,'list');
+        aList.CommaText:=installerUniversal.GetAlias(LAZARUSTAGLOOKUPMAGIC,'list');
       end
       else
         aList.CommaText:=installerUniversal.GetAlias(LAZARUSURLLOOKUPMAGIC,'list');

@@ -219,7 +219,7 @@ Const
 implementation
 
 uses
-  StrUtils, typinfo,inifiles, process, fpjson,
+  StrUtils, typinfo,inifiles, process, fpjson, GitLabTagReader,
   FileUtil, //LazFileUtils,
   {$ifndef FPCONLY}
   InterfaceBase,
@@ -3584,11 +3584,25 @@ begin
     ini.ReadSection(ALIASMAGIC+aDictionary,sl);
     if Uppercase(aKeyWord)='LIST' then
     begin
-      result:=sl.CommaText;
+      if ((aDictionary=FPCTAGLOOKUPMAGIC) or (aDictionary=LAZARUSTAGLOOKUPMAGIC)) then
+      begin
+        result:=GitLabTagReader.GetTagList(aDictionary);
+      end
+      else
+      begin
+        result:=sl.CommaText;
+      end
     end
     else
     begin
-      result:=ini.ReadString(ALIASMAGIC+aDictionary,aKeyWord,'');
+      if ((aDictionary=FPCURLLOOKUPMAGIC) or (aDictionary=LAZARUSURLLOOKUPMAGIC)) then
+      begin
+        result:=ini.ReadString(ALIASMAGIC+aDictionary,aKeyWord,'');
+      end
+      else
+      begin
+        result:=GitLabTagReader.GetTagAlias(aDictionary,aKeyWord);
+      end;
 
       if (aDictionary=FPCURLLOOKUPMAGIC) AND (aKeyWord='gitlab') then result:=FPCGITLABREPO;
       if (aDictionary=LAZARUSURLLOOKUPMAGIC) AND (aKeyWord='gitlab') then result:=LAZARUSGITLABREPO;
