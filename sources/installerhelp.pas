@@ -438,7 +438,9 @@ begin
     repeat
       LazarusVersion:=HELPSOURCEURL[i,0];
       if
-        (CalculateNumericalVersion(LazarusVersion)>=CalculateFullVersion(FMajorVersion,FMinorVersion,FReleaseVersion)) // check for a stable version of Lazarus
+        (CalculateNumericalVersion(LazarusVersion)=CalculateFullVersion(FMajorVersion,FMinorVersion,FReleaseVersion)) // check for a stable version of Lazarus
+        OR
+        (CalculateNumericalVersion(LazarusVersion)=CalculateFullVersion(FMajorVersion,FMinorVersion,FPatchVersion)) // check for a release candidate version of Lazarus
         OR
         ((Odd(FMinorVersion)) AND (CalculateNumericalVersion(LazarusVersion)>=CalculateFullVersion(FMajorVersion,(FMinorVersion-1),FReleaseVersion))) // check for a fixes version of Lazarus
       then
