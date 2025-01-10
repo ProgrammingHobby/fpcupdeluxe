@@ -404,7 +404,8 @@ const
     ('3.2','/Lazarus%203.2/doc-chm-fpc3.2.2-laz3.2-0.zip'),
     ('3.4','/Lazarus%203.4/doc-chm-fpc3.2.2-laz3.4-0.zip'),
     ('3.6','/Lazarus%203.6/doc-chm-fpc3.2.2-laz3.6-0.zip'),
-    ('4.0.1','/Lazarus%204.0RC1/doc-chm-fpc3.2.2-laz4.0-RC1.zip')
+    ('4.0.1','/Lazarus%204.0RC1/doc-chm-fpc3.2.2-laz4.0-RC1.zip'),
+    ('4.0.2','/Lazarus%204.0RC2/doc-chm-fpc3.2.2-laz4.0-RC2.zip')
   );
   HELP_URL_BASE='https://sourceforge.net/projects/lazarus/files/Lazarus%20Documentation';
 
