@@ -12,6 +12,8 @@ Wiki : http://wiki.freepascal.org/fpcupdeluxe<br/>
 
 Acknowledgement
 ===========
+This Version of fpcupdeluxe base on the originalversion 2.4.0f from Don Alfredo.
+
 As of August 28, 2015, this new repo contains all previous commits by Reinier.<br/>
 Many thanks towards user "Arvur" (see forum) for making this possible.<br/>
 Follow the fpcup development on http://forum.lazarus.freepascal.org/index.php/topic,27211.0.html
