@@ -4,18 +4,16 @@
     <PathDelim Value="\"/>
     <Version Value="12"/>
     <ManyBuildModesSelection Value="win32,win64,linuxi386,linuxi386QT5,linuxi386QT5zip,linux64,linuxaarch64,linuxaarch64QT5,linuxaarch64QT5zip,linuxarm,linuxarmQT5,linuxarmQT5zip,linuxarmv6,linuxx64QT5,linuxx64QT5zip,linuxppc64,freebsdi386,freebsdx64,solarisx64,dragonflyx64,netbsdx64,netbsdi386,freebsdx64QT5,freebsdx64QT5zip"/>
-    <BuildModes Active="Default"/>
+    <BuildModes Active="linux64"/>
     <Units Count="665">
       <Unit0>
         <Filename Value="up.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="fpcupdeluxe"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="187"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
         <CursorPos Y="214"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
@@ -23,11 +21,10 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="316"/>
-        <CursorPos X="82" Y="340"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4226"/>
+        <CursorPos Y="4254"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="sources\updeluxe\extrasettings.pas"/>
@@ -76,10 +73,10 @@
       <Unit7>
         <Filename Value="sources\fpcup.ini"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="419"/>
-        <CursorPos X="45" Y="441"/>
+        <TopLine Value="4"/>
+        <CursorPos X="23" Y="22"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Ini"/>
       </Unit7>
       <Unit8>
@@ -94,9 +91,11 @@
       <Unit9>
         <Filename Value="sources\revision.inc"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="29" Y="4"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="sources\updeluxe\subarch.pas"/>
@@ -121,16 +120,16 @@
         <Filename Value="sources\installercore.pas"/>
         <UnitName Value="installerCore"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="172"/>
-        <CursorPos X="25" Y="186"/>
-        <UsageCount Value="67"/>
+        <TopLine Value="424"/>
+        <CursorPos X="5" Y="460"/>
+        <UsageCount Value="68"/>
       </Unit12>
       <Unit13>
         <Filename Value="sources\fpcuputil.pas"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="2814"/>
-        <CursorPos X="61" Y="2822"/>
-        <UsageCount Value="54"/>
+        <TopLine Value="1370"/>
+        <CursorPos X="51" Y="1420"/>
+        <UsageCount Value="55"/>
       </Unit13>
       <Unit14>
         <Filename Value="..\..\stable\fpcsrc\packages\rtl-objpas\src\inc\strutils.pp"/>
@@ -781,10 +780,11 @@
       <Unit104>
         <Filename Value="sources\installerhelp.pas"/>
         <UnitName Value="installerHelp"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="412"/>
-        <CursorPos Y="421"/>
-        <UsageCount Value="15"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="376"/>
+        <CursorPos X="53" Y="411"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
       </Unit104>
       <Unit105>
         <Filename Value="sources\zipper.pp"/>
@@ -4979,18 +4979,91 @@
     <Debugger>
       <Backend Value="{A76EFAFB-3A42-421F-9672-C141897C94AA}"/>
     </Debugger>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="21" HistoryIndex="20">
       <Position1>
-        <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
-        <Caret Line="4204" Column="46" TopLine="4194"/>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="444" Column="35" TopLine="392"/>
       </Position1>
       <Position2>
-        <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="402" Column="131" TopLine="397"/>
       </Position2>
       <Position3>
-        <Filename Value="sources\updeluxe\fpcupdeluxemainform.pas"/>
-        <Caret Line="340" Column="82" TopLine="316"/>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="415" Column="142" TopLine="406"/>
       </Position3>
+      <Position4>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="425" Column="142" TopLine="406"/>
+      </Position4>
+      <Position5>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="423" Column="140" TopLine="406"/>
+      </Position5>
+      <Position6>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="447" Column="56" TopLine="406"/>
+      </Position6>
+      <Position7>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="428" Column="122" TopLine="406"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="410" Column="131" TopLine="406"/>
+      </Position8>
+      <Position9>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="407" Column="10" TopLine="406"/>
+      </Position9>
+      <Position10>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="417" Column="150" TopLine="406"/>
+      </Position10>
+      <Position11>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="447" Column="82" TopLine="433"/>
+      </Position11>
+      <Position12>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="449" TopLine="433"/>
+      </Position12>
+      <Position13>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="451" TopLine="433"/>
+      </Position13>
+      <Position14>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="456" TopLine="433"/>
+      </Position14>
+      <Position15>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="458" TopLine="433"/>
+      </Position15>
+      <Position16>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="467" TopLine="433"/>
+      </Position16>
+      <Position17>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="472" TopLine="433"/>
+      </Position17>
+      <Position18>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="487" TopLine="436"/>
+      </Position18>
+      <Position19>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="488" TopLine="437"/>
+      </Position19>
+      <Position20>
+        <Filename Value="sources\installerhelp.pas"/>
+        <Caret Line="489" TopLine="438"/>
+      </Position20>
+      <Position21>
+        <Filename Value="sources\fpcup.ini"/>
+        <Caret Line="22" Column="23"/>
+      </Position21>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

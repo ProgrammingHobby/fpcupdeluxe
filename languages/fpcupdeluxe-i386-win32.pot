@@ -217,6 +217,10 @@ msgstr ""
 msgid "Please check the folder permissions, and re-start."
 msgstr ""
 
+#: fpcupdeluxemainform.upgitnotfound
+msgid "No GIT executable found on system. Tag-list cannot be received."
+msgstr ""
+
 #: fpcupdeluxemainform.upinstallconfimation
 #, object-pascal-format
 msgid "Going to install %s and %s%s."
